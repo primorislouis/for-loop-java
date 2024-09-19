@@ -1,14 +1,27 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import org.w3c.dom.ls.LSOutput;
+
 import java.io.*;
 
 class GFG {
+
+
     public static void main (String[] args) {
         for (int i=1; i<=100; i++)
         {
             System.out.println("Louis");
         }
-    }
 
-    
+        int x = 0;
+        int y = 5;
+
+        if(x < y) {
+            System.out.println("X is less than Y");
+        }
+
+        else {
+            System.out.println("X is greater than or equal to Y");
+        }
+    }
 }
